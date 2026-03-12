@@ -55,6 +55,9 @@ print("-------------------------------------------------------")
 
 pontuacao = float(input("Digite sua pontuação: "))
 
-if pontuacao <= 1000:
+if pontuacao <= 999:
     print("Iniciante.")
-elif 
+elif pontuacao >= 1000 and pontuacao <= 4999:
+    print("Jogador intermediário.")
+else:
+    print("Jogador profissional.")
