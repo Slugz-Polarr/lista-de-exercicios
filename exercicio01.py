@@ -35,7 +35,7 @@ bateria = float(input("Digite sua porcentagem de bateria: "))
 
 if bateria >= 60:
     print("Bateria alta.")
-elif bateria <= 30 and bateria >= 59:
+elif bateria >= 30 and bateria <= 59:
     print("Bateria média.")
 else:
     print("Corre carregar o celular.")
