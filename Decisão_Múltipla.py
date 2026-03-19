@@ -151,7 +151,7 @@ else:
 print("--------------------------------------------------------------------------------------------------------------")
 
 nome9 = input("Digite o nome: ")
-velocidade = float(input("Digite a velocidade do carro (km/h): "))
+velocidade = float(input("Digite a velocidade do carro: "))
 
 print(f"Olá {nome9}, você está a {velocidade} km/h e isso é: {situacao2}.")
 
@@ -172,7 +172,7 @@ print("-------------------------------------------------------------------------
 nome10 = input("Digite o nome: ")
 horas = float(input("Quantas horas joga por dia? "))
 
-print(f"Olá {nome10}, você joga {horas} horas por dia e é classificado como: {classe}.)
+print(f"Olá {nome10}, você joga {horas} horas por dia e é classificado como: {classe}.")
 
 if horas < 1:
     classe = "Casual"
