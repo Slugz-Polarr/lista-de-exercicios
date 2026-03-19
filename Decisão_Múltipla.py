@@ -77,7 +77,7 @@ print("-------------------------------------------------------------------------
 nome5 = input("Digite o nome do aluno: ")
 media = float(input("Digite a média do aluno: "))
 
-print(f"Olá {nome5}, sua média foi {media} e seu desempenho é: {desempenho}")
+print(f"Olá {nome5}, sua média foi {media} e seu desempenho é: {desempenho}.")
 
 if media < 5:
     desempenho = "Reprovado"
@@ -96,7 +96,7 @@ print("-------------------------------------------------------------------------
 nome6 = input("Digite o nome: ")
 horas = float(input("Quantas horas por dia usa o celular? "))
 
-print(f"Olá {nome6}, você usa o celular {horas} horas por dia e seu uso é: {uso}")
+print(f"Olá {nome6}, você usa o celular {horas} horas por dia e seu uso é: {uso}.")
 
 if horas < 2:
     uso = "Baixo"
@@ -115,7 +115,7 @@ print("-------------------------------------------------------------------------
 nome7 = input("Digite o nome: ")
 idade = int(input("Digite a idade: "))
 
-print(f"Olá {nome7}, você tem {idade} anos e pode assistir filmes: {classificacao}")
+print(f"Olá {nome7}, você tem {idade} anos e pode assistir filmes: {classificacao}.")
 
 if idade < 10:
     classificacao = "Infantil"
@@ -134,7 +134,7 @@ print("-------------------------------------------------------------------------
 nome8 = input("Digite o nome: ")
 saldo = float(input("Digite o saldo bancário: "))
 
-print(f"Olá {nome8}, seu saldo é R${saldo} e sua situação é: {situacao}")
+print(f"Olá {nome8}, seu saldo é R${saldo} e sua situação é: {situacao}.")
 
 if saldo < 0:
     situacao = "Endividado"
@@ -153,7 +153,7 @@ print("-------------------------------------------------------------------------
 nome9 = input("Digite o nome: ")
 velocidade = float(input("Digite a velocidade do carro (km/h): "))
 
-print(f"Olá {nome9}, você está a {velocidade} km/h e isso é: {situacao2}")
+print(f"Olá {nome9}, você está a {velocidade} km/h e isso é: {situacao2}.")
 
 if velocidade < 40:
     situacao2 = "Lento"
@@ -172,7 +172,7 @@ print("-------------------------------------------------------------------------
 nome10 = input("Digite o nome: ")
 horas = float(input("Quantas horas joga por dia? "))
 
-print(f"Olá {nome10}, você joga {horas} horas por dia e é classificado como: {classe}")
+print(f"Olá {nome10}, você joga {horas} horas por dia e é classificado como: {classe}.)
 
 if horas < 1:
     classe = "Casual"
